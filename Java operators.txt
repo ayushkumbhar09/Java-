@@ -6,7 +6,7 @@ public static void main()
 	int a = 56;
 	a += 4;
 	system.out.println(a);
-	return 0;
+	
 }
 
 Arithmetic operator
@@ -25,7 +25,7 @@ public static void main()
 	system.out.println("division = "+a/b);
 	// modulo
 	system.out.println("modulo = "+a%b);
-	return 0;
+	
 }
 
 logical operator
@@ -36,7 +36,7 @@ public static void  main()
    	 System.out.println(x > 3 && x < 10);
  	System.out.println(x > 3 || x < 10);
  	System.out.println(!(x > 3 && x < 10));
-	return 0;
+	
 }
 
 Comparison operator
@@ -51,7 +51,7 @@ public static void main()
 	System.out.println(x != y);
 	System.out.println(x >= y);
 	System.out.println(x <= y);
-	return 0;
+	
 }
 
 bitwise operator
@@ -64,6 +64,6 @@ public static void main()
 	system.out.println("a|b =  " + (a | b));
 	system.out.println("a^b =  " + (a & b));
 	system.out.println("~a" =  " +  ~a);
-	return 0;
+	
 }
 
