@@ -1,0 +1,69 @@
+Java operators
+
+Assignment operators
+public static void main()
+{
+	int a = 56;
+	a += 4;
+	system.out.println(a);
+	return 0;
+}
+
+Arithmetic operator
+
+public static void main()
+{
+ 	int a = 5;
+	int b = 7;
+	// addition
+                system.out.println("addition = "+ a+b);
+	// subtraction
+                system.out.println("subtraction = "+a-b);
+	// multiplication
+	system.out.println("multiplication = "+a*b);
+	// division
+	system.out.println("division = "+a/b);
+	// modulo
+	system.out.println("modulo = "+a%b);
+	return 0;
+}
+
+logical operator
+
+public static void  main()
+{
+	int x = 5;
+   	 System.out.println(x > 3 && x < 10);
+ 	System.out.println(x > 3 || x < 10);
+ 	System.out.println(!(x > 3 && x < 10));
+	return 0;
+}
+
+Comparison operator
+
+public static void main()
+{
+	int x = 4;
+	int y = 9;
+	System.out.println(x > y);
+	System.out.println(x < y);
+	System.out.println(x == y);
+	System.out.println(x != y);
+	System.out.println(x >= y);
+	System.out.println(x <= y);
+	return 0;
+}
+
+bitwise operator
+
+public static void main()
+{
+	int a = 9;
+	int b = 6;
+	system.out.println("a&b =  " + (a & b));
+	system.out.println("a|b =  " + (a | b));
+	system.out.println("a^b =  " + (a & b));
+	system.out.println("~a" =  " +  ~a);
+	return 0;
+}
+
