@@ -6,7 +6,8 @@ public class file__reader {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
-		FileReader filereader = new FileReader("F://filereader");
+		FileReader filereader = new FileReader("F://filereader.txt");
+		// mention extension 
 		Scanner sc = new Scanner(filereader);
 		
 		while(sc.hasNext())
